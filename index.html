@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tobira Kanji Lab | dais79-lab</title>
+    <style>
+        :root { --primary: #2c3e50; --accent: #3498db; --bg: #f8f9fa; }
+        body { font-family: 'Segoe UI', system-ui, sans-serif; background-color: var(--bg); color: var(--primary); max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        .header { text-align: center; margin-bottom: 40px; }
+        .card-container { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+        .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-top: 5px solid var(--accent); transition: transform 0.2s; }
+        .card:hover { transform: translateY(-5px); }
+        h2 { margin-top: 0; font-size: 1.2rem; color: var(--primary); }
+        p { font-size: 0.9rem; color: #666; }
+        .link-btn { display: inline-block; margin-top: 10px; padding: 10px 20px; background: var(--accent); color: white; text-decoration: none; border-radius: 6px; font-weight: bold; }
+        .link-btn:hover { background: #2980b9; }
+        .badge { font-size: 0.7rem; background: #e1f0fa; color: #3498db; padding: 3px 8px; border-radius: 10px; text-transform: uppercase; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Tobira Kanji Index</h1>
+        <p>Materiales de apoyo para <em>"上級へのとびら"</em> (Nivel Intermedio)</p>
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <span class="badge">Lectura / Reconocimiento</span>
+            <h2>Kanji 1r (Reading)</h2>
+            <p>Lista de kanji enfocada en el reconocimiento y lectura para la Lección 1.</p>
+            <a href="chukyu%20kanji%201r.html" class="link-btn">Abrir Material →</a>
+        </div>
+
+        <div class="card">
+            <span class="badge">Escritura / Lectura</span>
+            <h2>Tobira 1 Kanji rw</h2>
+            <p>Práctica integral de escritura (Write) y lectura (Read) para la Lección 1.</p>
+            <a href="chukyu%20tobira%201%20kanji%20rw.html" class="link-btn">Abrir Material →</a>
+        </div>
+    </div>
+
+    <footer style="margin-top: 60px; text-align: center; font-size: 0.8rem; color: #95a5a6;">
+        <p>Repositorio administrado por <strong>dais79-lab</strong></p>
+    </footer>
+
+</body>
+</html>
